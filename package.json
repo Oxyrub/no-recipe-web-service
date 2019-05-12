@@ -2,7 +2,7 @@
   "name": "no-recipe-web-service",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "tsc": "tsc",
     "start": "tsc && node ./build/app.js",
