@@ -1,0 +1,26 @@
+{
+  "name": "no-recipe-web-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "tsc && node ./build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oxyrub/no-recipe-web-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oxyrub/no-recipe-web-service/issues"
+  },
+  "homepage": "https://github.com/Oxyrub/no-recipe-web-service#readme",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.16.4",
+    "typescript": "^3.4.5"
+  }
+}
